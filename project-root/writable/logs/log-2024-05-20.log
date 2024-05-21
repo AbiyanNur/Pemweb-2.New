@@ -1,0 +1,448 @@
+INFO - 2024-05-20 06:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 06:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 06:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 06:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 06:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 06:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 06:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 06:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 06:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 06:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 06:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 06:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:11:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:11:40 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 7.
+ 1 APPPATH\Views\books\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:12:01 --> CSRF token verified.
+INFO - 2024-05-20 07:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:12:01 --> Error: Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+in APPPATH\Controllers\Books.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->update('3')
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:13:28 --> CSRF token verified.
+INFO - 2024-05-20 07:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:13:40 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 7.
+ 1 APPPATH\Views\books\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('SAO')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:13:41 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 7.
+ 1 APPPATH\Views\books\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:14:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:15:01 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 7.
+ 1 APPPATH\Views\books\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:15:06 --> CSRF token verified.
+INFO - 2024-05-20 07:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:15:23 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 7.
+ 1 APPPATH\Views\books\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:15:26 --> CSRF token verified.
+INFO - 2024-05-20 07:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:15:36 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 7.
+ 1 APPPATH\Views\books\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:19:14 --> CSRF token verified.
+INFO - 2024-05-20 07:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:19:21 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 7.
+ 1 APPPATH\Views\books\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:19:37 --> CSRF token verified.
+INFO - 2024-05-20 07:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:19:42 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 7.
+ 1 APPPATH\Views\books\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:19:46 --> CSRF token verified.
+INFO - 2024-05-20 07:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:19:53 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 7.
+ 1 APPPATH\Views\books\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:23:29 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 7.
+ 1 APPPATH\Views\books\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:23:36 --> CSRF token verified.
+INFO - 2024-05-20 07:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:23:40 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 7.
+ 1 APPPATH\Views\books\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:27:28 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 7.
+ 1 APPPATH\Views\books\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:27:29 --> CSRF token verified.
+INFO - 2024-05-20 07:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:33:43 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 8.
+ 1 APPPATH\Views\books\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:33:55 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 8.
+ 1 APPPATH\Views\books\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:34:20 --> CSRF token verified.
+INFO - 2024-05-20 07:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:34:20 --> CodeIgniter\Validation\Exceptions\ValidationException: "required is_unique" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 336.
+ 1 SYSTEMPATH\Validation\Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required is_unique')
+ 2 SYSTEMPATH\Validation\Validation.php(200): CodeIgniter\Validation\Validation->processRules('judul', 'judul', 'sword art ngawi', [...], [...])
+ 3 SYSTEMPATH\Controller.php(154): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Books.php(132): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->update('3')
+ 6 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:34:28 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 8.
+ 1 APPPATH\Views\books\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(50): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:35:42 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 8.
+ 1 APPPATH\Views\books\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(51): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:35:47 --> CSRF token verified.
+INFO - 2024-05-20 07:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:35:49 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 8.
+ 1 APPPATH\Views\books\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(51): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:36:13 --> CSRF token verified.
+INFO - 2024-05-20 07:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:09 --> CSRF token verified.
+INFO - 2024-05-20 07:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:37:16 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 8.
+ 1 APPPATH\Views\books\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(51): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:37:35 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 8.
+ 1 APPPATH\Views\books\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(51): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:39:36 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 8.
+ 1 APPPATH\Views\books\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(51): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:43:12 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 8.
+ 1 APPPATH\Views\books\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(51): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:46:53 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 8.
+ 1 APPPATH\Views\books\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(51): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:47:03 --> CSRF token verified.
+INFO - 2024-05-20 07:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 07:47:17 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Views\books\edit.php on line 8.
+ 1 APPPATH\Views\books\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\LENOVO\\Downloads\\project-root\\app\\Views\\books\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('books/edit', [], true)
+ 5 APPPATH\Controllers\Books.php(51): view('books/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Books->edit('highLightTitle.png')
+ 7 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Books))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\LENOVO\\Downloads\\project-root\\public\\index.php')
+INFO - 2024-05-20 07:47:25 --> CSRF token verified.
+INFO - 2024-05-20 07:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 07:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
