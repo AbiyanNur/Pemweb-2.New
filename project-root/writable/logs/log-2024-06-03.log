@@ -1,0 +1,224 @@
+ERROR - 2024-06-03 04:34:11 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(757): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(161): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-06-03 04:35:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	CONSTRAINT `pk_person` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf...' at line 6 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Migrations\2024-06-03-042136_Penulis.php(38): CodeIgniter\Database\Forge->createTable('person')
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\Penulis->up()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-03 04:36:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	CONSTRAINT `pk_orang` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8...' at line 6 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Migrations\2024-06-03-042136_Penulis.php(38): CodeIgniter\Database\Forge->createTable('orang')
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\Penulis->up()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-03 04:38:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	CONSTRAINT `pk_orang` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8...' at line 6 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Migrations\2024-06-03-042136_Penulis.php(38): CodeIgniter\Database\Forge->createTable('orang')
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\Penulis->up()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-03 04:42:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	CONSTRAINT `pk_orang` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8...' at line 6 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Migrations\2024-06-03-042136_Penulis.php(38): CodeIgniter\Database\Forge->createTable('orang')
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\Penulis->up()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-03 04:44:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	CONSTRAINT `pk_orang` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8...' at line 6 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Migrations\2024-06-03-042136_Penulis.php(38): CodeIgniter\Database\Forge->createTable('orang')
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\Penulis->up()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-03 04:47:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	CONSTRAINT `pk_orang` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8...' at line 6 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Migrations\2024-06-03-042136_Penulis.php(38): CodeIgniter\Database\Forge->createTable('orang')
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\Penulis->up()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-03 04:48:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	CONSTRAINT `pk_orang` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8...' at line 6 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Migrations\2024-06-03-042136_Penulis.php(38): CodeIgniter\Database\Forge->createTable('orang')
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\Penulis->up()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-03 04:50:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL,
+	CONSTRAINT `pk_Penulis` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = ut...' at line 6 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `P...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `P...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `P...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `P...')
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Migrations\2024-06-03-042136_Penulis.php(38): CodeIgniter\Database\Forge->createTable('Penulis')
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\Penulis->up()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-03 05:13:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`created_at` DATETIME NULL,
+	`updated_at` DATETIME NULL,
+	CONSTRAI...' at line 4 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `P...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `P...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `P...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `P...')
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Migrations\2024-06-03-050506_Penulis.php(37): CodeIgniter\Database\Forge->createTable('Person')
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\Penulis->up()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-03 05:15:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`created_at` DATETIME NULL,
+	`updated_at` DATETIME NULL,
+	CONSTRAI...' at line 4 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Migrations\2024-06-03-050506_Penulis.php(37): CodeIgniter\Database\Forge->createTable('penulis')
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\Penulis->up()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-03 05:16:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`created_at` DATETIME NULL,
+	`updated_at` DATETIME NULL,
+	CONSTRAI...' at line 4 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Migrations\2024-06-03-050506_Penulis.php(37): CodeIgniter\Database\Forge->createTable('orang')
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\Penulis->up()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-03 05:18:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`created_at` DATETIME NULL,
+	`updated_at` DATETIME NULL,
+	CONSTRAI...' at line 4 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `P...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `P...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `P...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Forge.php(555): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `P...')
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Migrations\2024-06-03-050506_Penulis.php(37): CodeIgniter\Database\Forge->createTable('Penulis')
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(865): App\Database\Migrations\Penulis->up()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(181): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}

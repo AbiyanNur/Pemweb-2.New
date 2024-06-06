@@ -1,0 +1,119 @@
+ERROR - 2024-06-06 14:27:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':name:, :address:, :created_at:, :updated_at:)' at line 1 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Pen...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Pen...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Pen...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Seeds\PenulisSeeder.php(63): CodeIgniter\Database\BaseConnection->query('INSERT INTO Pen...', Array)
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\penulisSeeder->run()
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-06-06 14:29:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':name:, :address:, :created_at:, :updated_at:)' at line 1 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Pen...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Pen...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Pen...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Seeds\PenulisSeeder.php(51): CodeIgniter\Database\BaseConnection->query('INSERT INTO Pen...', Array)
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\penulisSeeder->run()
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-06-06 14:30:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':name:, :address:, :created_at:, :updated_at:)' at line 1 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Pen...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Pen...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Pen...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Seeds\PenulisSeeder.php(64): CodeIgniter\Database\BaseConnection->query('INSERT INTO Pen...', Array)
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\penulisSeeder->run()
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+ERROR - 2024-06-06 14:33:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Seeds\PenulisSeeder.php(67): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\penulisSeeder->run()
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2024-06-06 14:34:50 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', NULL, false)
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Seeds\PenulisSeeder.php(67): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\penulisSeeder->run()
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-06 14:39:03 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', NULL, false)
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Seeds\PenulisSeeder.php(67): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\penulisSeeder->run()
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-06 14:42:26 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', NULL, false)
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Seeds\PenulisSeeder.php(67): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\penulisSeeder->run()
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-06 14:50:00 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', NULL, false)
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Seeds\PenulisSeeder.php(67): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\penulisSeeder->run()
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-06-06 14:50:37 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1803): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', NULL, false)
+#4 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\LENOVO\Pemweb-2.New\project-root\app\Database\Seeds\PenulisSeeder.php(47): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Database\Seeder.php(145): App\Database\Seeds\penulisSeeder->run()
+#7 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\Users\LENOVO\Pemweb-2.New\project-root\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\Users\LENOVO\Pemweb-2.New\project-root\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
